@@ -15,8 +15,9 @@ class Test01
   def text_block
     proc {
       Font[:jost_32].render("quick brown fox jumped over the lazy dog", position: [20, 20])
-      Font[:jost_16].render("quick brown fox jumped over the lazy dog", position: [20, 200])
-      # LM.switch(:image)
+      Font[:jost_16].render("press [space] to change LoopState", position: [20, 400])
+      Font[:jost_16].render("press [q] or [esc] to quit", position: [20, 420])
+      Font[:jost_16].render("press [F12] to start debug", position: [20, 440])
     }
   end
 
@@ -24,7 +25,9 @@ class Test01
     proc {
       Sprite[:gem].render(position: { y: 220, x: 20 })
       Sprite[:gem].render(position: { y: 320, x: 220 }, size: { height: 64, width: 128 })
-      # LM.switch(:text)
+      Font[:jost_16].render("press [space] to change LoopState", position: [20, 400])
+      Font[:jost_16].render("press [q] or [esc] to quit", position: [20, 420])
+      Font[:jost_16].render("press [F12] to start debug", position: [20, 440])
     }
   end
 

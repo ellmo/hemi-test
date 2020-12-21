@@ -1,0 +1,31 @@
+# METRICS
+MethodLength:
+  CountComments: false
+  Max: 15
+Metrics/LineLength:
+  Enabled: false
+Metrics/AbcSize:
+  Max: 25
+
+# LAYOUT
+Layout/DotPosition:
+  EnforcedStyle: leading
+  Enabled: true
+Layout/ExtraSpacing:
+  Enabled: false
+Layout/SpaceAroundOperators:
+  Enabled: false
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+Layout/AccessModifierIndentation:
+  EnforcedStyle: outdent
+
+# STYLE
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
